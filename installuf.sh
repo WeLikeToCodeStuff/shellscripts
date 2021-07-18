@@ -4,7 +4,7 @@ echo "Installing File Uploader Script by NeonDevelopment."
 echo " "
 echo " "
 sudo cd /bin/
-sudo wget https://sh.neonthe.dev/uf.sh
+sudo wget https://raw.githubusercontent.com/WeLikeToCodeStuff/shellscripts/main/uf.sh
 sudo mv uf.sh uf
 sudo chmod +x /bin/uf
 echo " "
