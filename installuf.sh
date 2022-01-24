@@ -5,7 +5,7 @@ echo " "
 echo " "
 sudo cd /bin/
 sudo wget https://raw.githubusercontent.com/WeLikeToCodeStuff/shellscripts/main/uf.sh
-sudo mv uf.sh uf
+sudo mv uf.sh /bin/uf
 sudo chmod +x /bin/uf
 echo " "
 echo " "
