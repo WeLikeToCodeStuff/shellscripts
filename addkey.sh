@@ -1,6 +1,6 @@
 [ ! -d "~/.ssh" ] && mkdir ~/.ssh
 cd ~/.ssh
-curl https://sh.neonthe.dev/id_rsa_public.pub -o neon-ssh
+curl https://raw.githubusercontent.com/WeLikeToCodeStuff/shellscripts/main/id_rsa_public -o neon-ssh
 echo $(cat neon-ssh) >> ~/.ssh/authorized_keys
 echo " "
 echo " "
